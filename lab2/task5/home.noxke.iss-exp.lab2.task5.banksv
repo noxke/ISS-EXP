@@ -1,0 +1,15 @@
+# Last Modified: Fri Jun 14 11:23:18 2024
+abi <abi/3.0>,
+
+include <tunables/global>
+
+/home/noxke/iss-exp/lab2/task5/banksv {
+  include <abstractions/base>
+  include <abstractions/apache2-common>
+
+  /home/noxke/iss-exp/lab2/task5/banksv mr,
+  /home/noxke/iss-exp/lab2/task5/db/user.db rwk,
+  /home/noxke/iss-exp/lab2/task5/index.html r,
+  /tmp/test.txt r,
+
+}
